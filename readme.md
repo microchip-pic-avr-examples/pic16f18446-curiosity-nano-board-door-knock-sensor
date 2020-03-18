@@ -5,7 +5,7 @@
 
 In this project I use a piezoelectric transducer to sense the vibration of the door surface when someone koncks, or tries to break the door. The transducer is connected directly to an analog input pin of the PIC16F18446, and read using the Analog-to-Digital Converter with Computation (ADCC) peripheral. The PIC does the signal acquisition and processing, and generates a door bell like sound when it detects a door knock, and an alarm sound when it detects a door break attempt. The sound output is produced by another piezoelectric transducer (buzzer), which is connected directly to GPIO pins of the PIC.
 
-![Demo](image/demo.png)
+![Demo](image/Demo.png)
 
 # Description
 
