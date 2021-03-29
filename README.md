@@ -57,36 +57,36 @@ This section shows the settings used in the demo/example for various MCU modules
 
 The MCU uses the high frequency internal oscillator (HFINTOSC), and the clock is set to 32 MHz. Watchdog Timer is not used in this demo, so it is disabled.
 
-<br><img src="oscillator.png" width="600">
+<br><img src="images/oscillator.png" width="600">
 
 ### ADCC Settings
 
 ADCC is used to read the piezoelectric transducer (vibration sensor). It is configured to operate in burst average mode, with the internal RC oscillator as clock source. It also has the Continuous Operation and ADC Threshold Interrupt enabled.
 
-<br><img src="adcc.png" width="600">
+<br><img src="images/adcc.png" width="600">
 
 In the ADCC Register section, the computation features in the ADCON3 are set as in the figure below:
 
-<br><img src="adcc2.png" width="600">
+<br><img src="images/adcc2.png" width="600">
 
 The ADC Setpoint is configured in the ADSTPTL register:
 
-<br><img src="adcc3.png" width="600">
+<br><img src="images/adcc3.png" width="600">
 
 The sample number for the burst average mode is configured in the ADRPT register:
 
-<br><img src="adcc4.png" width="600">
+<br><img src="images/adcc4.png" width="600">
 
 The channel (analog input pin) is configured in the ADPCH register:
 
-<br><img src="adcc5.png" width="600">
+<br><img src="images/adcc5.png" width="600">
 
 The pin ANC1 corresponds to the AN2 on the Curiosity Nano Adapter board, where the piezoelectric transducer (sensor) is connected.
 
 ### TMR1 Settings
 Timer 1 is used for generating the 1ms time interval, which is the sample period for the sensor data.
 
-<br><img src="tmr.png" width="600">
+<br><img src="images/tmr.png" width="600">
 
 ### Pin Manager Settings
 The pins are configured as follows:
@@ -94,7 +94,7 @@ The pins are configured as follows:
 * Piezoelectric transducer (sensor) is connected to GND and ANC1
 * Buzzer is connected to pins RA4 and RC3
 
-<br><img src="pins.png" width="600">
+<br><img src="images/pins.png" width="600">
 
 
 ## Demo
