@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-curiosity-nano-board-door-knock-sensor",
         "version": "1.0.2",
-        "displayName": "Door knock sensor",
+        "displayName": "Door knock sensor Using ADCC",
         "projectName": "pic16f18446-curiosity-nano-board-door-knock-sensor",
         "shortDescription": "This project implements a door knock sensor that detects door knocks or break in attempts and produces a sound depending on the severity of the knock.",
         "ide": {
@@ -39,7 +39,8 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADCC"
+               "Peripherals",
+			   "ADCC"
             ]
         ],
         "peripherals": [
